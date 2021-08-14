@@ -18,7 +18,7 @@ function App() {
         delay={300}
         onError={handleError}
         onScan={handleScan}
-        style ={{width:'500px'}}
+        style ={{width:'80%'}}
       />
       <p>{ data.result}</p>
     </div>
